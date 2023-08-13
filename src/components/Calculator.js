@@ -38,13 +38,13 @@ const Calculator = ({calstring,setCalstring})=>{
 
    }
 
-    return (<>
+    return (<div className="Calculator">
     <div className="calstring">{calstring} <h3>{ans}</h3> </div>
     <div className="ui">
         {elemarr.map((elem,index,arr)=>{return (<div className={`uielements no${index}`} key={index} onClick={clickfunc}>{elem}</div>)})}
         <div className="uielements"></div>
     </div>
-    </>)
+    </div>)
 }
 
 export default Calculator;

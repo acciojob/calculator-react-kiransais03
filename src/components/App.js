@@ -2,14 +2,15 @@
 
 import React, { useState } from "react";
 import Calculator from "./Calculator"
+import "../styles/App.css"
 
 const App = ()=>{
 
     let [calstring,setCalstring]=useState("");
     
-    return(<>
+    return(<div className="maincontainer">
     <Calculator calstring={calstring} setCalstring={setCalstring} />  
-    </>)
+    </div>)
 }
 
 export default App;
