@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.calstring {
+    background-color: goldenrod;
+    color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    height: 100px;
+    justify-content: end;
+    font-size: 20px;
+}
+
+.ui {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 40%;
+    justify-content: center;
+}
+
+.uielements {
+  /* width: 50px; */
+  height: 60px;
+  background-color: grey;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+
+.no7 {
+    grid-row:2/span 2;
+    grid-column: 4/5;
+    height: 100%
+}
+
+.no14 {
+    grid-row:4/6;
+    grid-column: 4/5;
+    height: 100%
+}
